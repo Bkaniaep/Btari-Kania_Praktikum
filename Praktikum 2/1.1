@@ -1,8 +1,8 @@
 import random
 angka_rahasia = random.randint(1, 100)
-print('=' * 40)
+print('=' * 72)
 print('Kami telah memiliki angka, silakan tebak!')
-print('=' * 40)
+print('=' * 72)
 while True:
   jawaban = int(input('\nMasukkan angka: '))
 
@@ -14,7 +14,7 @@ while True:
       'Tebakanmu terlalu',
       'kecil' if jawaban < angka_rahasia else 'besar'
     )
-    batas_percobaan = 8
+    batas_percobaan = 5
 
 for percobaan in range(batas_percobaan):
   jawaban = int(input(f'\n[Percobaan {percobaan + 1}] Masukkan angka: '))

@@ -1,6 +1,6 @@
-import random
+aimport random
 
-#Daftar ini memberikan gambaran tentang waktu acara.
+#Daftar ini memberikan gambaran tentang waktu kegiatan.
 Kalimat_starter = random.randint(1, 3)
 if Kalimat_starter == 1 :
     kalimat_1 = ("Pada hari selasa, ")
